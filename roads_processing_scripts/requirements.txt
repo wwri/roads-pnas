@@ -1,0 +1,62 @@
+# ============================================================================
+# 📦 Networks Paper - Python Dependencies
+# ============================================================================
+# 
+# Installation:
+#   pip install -r requirements.txt
+#
+# Or create a conda environment:
+#   conda create -n networks python=3.10
+#   conda activate networks
+#   pip install -r requirements.txt
+#
+# ============================================================================
+
+# =============================================================================
+# 🗺️ Geospatial & Network Analysis
+# =============================================================================
+osmnx>=1.6.0              # OpenStreetMap network download and analysis
+geopandas>=0.14.0         # Geospatial data handling
+shapely>=2.0.0            # Geometric operations
+networkx>=3.0             # Graph/network analysis
+pyproj>=3.6.0             # Coordinate transformations
+
+# =============================================================================
+# 📊 Data Processing & Analysis
+# =============================================================================
+pandas>=2.0.0             # Data manipulation
+numpy>=1.24.0             # Numerical operations
+scipy>=1.11.0             # Scientific computing (for zonal stats)
+
+# =============================================================================
+# 🎨 Visualization
+# =============================================================================
+matplotlib>=3.7.0         # Plotting
+folium>=0.14.0            # Interactive maps
+branca>=0.6.0             # Folium helper library
+
+# =============================================================================
+# 🖼️ Raster Processing
+# =============================================================================
+rasterio>=1.3.0           # Raster file I/O
+rasterstats>=0.19.0       # Zonal statistics
+
+# =============================================================================
+# 📥 Data Download & API
+# =============================================================================
+requests>=2.31.0          # HTTP requests
+census>=0.8.0             # US Census API wrapper
+us>=3.0.0                 # US state metadata
+
+# =============================================================================
+# ⏰ Utilities
+# =============================================================================
+pytz>=2023.3              # Timezone handling
+tqdm>=4.65.0              # Progress bars
+
+# =============================================================================
+# 📓 Jupyter Notebooks (optional - for development)
+# =============================================================================
+jupyter>=1.0.0            # Jupyter environment
+ipykernel>=6.25.0         # Jupyter kernel
+notebook>=7.0.0           # Notebook interface
