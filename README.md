@@ -50,23 +50,6 @@ After regeneration, update `pnas-mapping.R` input path if needed and re-run anal
 - Pipeline scripts are included to support transparent future updates and sensitivity checks.
 - See `REPRODUCIBILITY_CHECKLIST.md` before release/tagging.
 
-## Archival and Citation
+## Citation
 
-This project has two archived components:
-
-1. **Code and analysis repository (this repo):**  
-   DOI: `10.5281/zenodo.19597491`  
-   URL: `https://doi.org/10.5281/zenodo.19597491`
-
-2. **Fatality source documents (PDF archive):**  
-   DOI: `10.XXXX/zenodo.YYYYYYY`  
-   URL: `https://doi.org/10.XXXX/zenodo.YYYYYYY`
-
-The repository DOI captures analysis code, the frozen manuscript dataset, and the reproducible workflow.  
-The source-document DOI contains supporting media PDFs used for fatality verification and documentation.
-
-### Suggested citation
-
-Fong, C. (YEAR). *roads-pnas: Reproducible analysis for wildfire evacuation vulnerability* (Version X.X) [Computer software]. Zenodo. `https://doi.org/10.5281/zenodo.19597491`
-
-Fong, C. (YEAR). *Fatality source documents for roads-pnas* (Version X.X) [Data set]. Zenodo. `https://doi.org/10.XXXX/zenodo.YYYYYYY`
+If you use this code or data, please cite the associated PNAS paper and this repository.
